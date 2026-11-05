@@ -1,0 +1,25 @@
+# Local Python tools and caches
+.venv/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+
+# Personal data, secrets and generated artifacts are not homework source files.
+.env
+.env.*
+!.env.example
+data/
+artifacts/
+models/
+logs/
+*.log
+
+# Future mobile build artifacts
+.dart_tool/
+.flutter-plugins-dependencies
+build/
+Pods/

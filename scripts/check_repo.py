@@ -11,7 +11,6 @@ from urllib.parse import unquote, urlsplit
 REQUIRED = (
     "README.md",
     "docs/ml_system_design_doc.md",
-    "docs/hw1_checklist.md",
     "pyproject.toml",
     "uv.lock",
     ".pre-commit-config.yaml",
