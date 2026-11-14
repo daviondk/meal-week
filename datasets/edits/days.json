@@ -1,0 +1,10 @@
+{
+  "request_id": "O2",
+  "target": {"kcal": 2000, "protein": 100, "fat": 72, "carbs": 240},
+  "relative_tolerance": {"kcal": 0.05, "protein": 0.10, "fat": 0.10, "carbs": 0.10},
+  "contexts": [
+    {"id":"room","rest_of_day":{"kcal":1850,"protein":94,"fat":68,"carbs":204}},
+    {"id":"energy_limit","rest_of_day":{"kcal":1915,"protein":94,"fat":68,"carbs":204}},
+    {"id":"carb_limit","rest_of_day":{"kcal":1850,"protein":94,"fat":68,"carbs":226}}
+  ]
+}

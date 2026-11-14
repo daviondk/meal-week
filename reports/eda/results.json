@@ -1,0 +1,429 @@
+{
+  "source": {
+    "archive_sha256": "5ccc25ec2777a8982fbb61378a42f415316173eb11e48c9a8ba4cb19f5a4f29c",
+    "foods": 5432,
+    "duplicate_food_ids": 0,
+    "duplicate_names_exact": 0,
+    "survey_foods": 5432,
+    "food_without_survey_row": 0,
+    "duplicate_survey_ids": 0,
+    "unknown_category_rows": 0,
+    "represented_categories": 172,
+    "nutrient_rows": 353015,
+    "duplicate_food_nutrient_pairs": 0,
+    "orphan_rows": {
+      "nutrient": 0,
+      "portions": 0,
+      "ingredients": 0,
+      "survey": 0
+    },
+    "empty_macro_amount_rows": 0,
+    "negative_macro_rows": 0,
+    "complete_macros": 5431,
+    "incomplete_foods": {
+      "2705383": "Milk, human"
+    },
+    "zero_values_per_nutrient": {
+      "kcal": 28,
+      "protein": 184,
+      "fat": 194,
+      "carbs": 307
+    },
+    "per_100g": {
+      "kcal": {
+        "min": 0.0,
+        "q1": 91.5,
+        "median": 167.0,
+        "q3": 273.0,
+        "max": 902.0
+      },
+      "protein": {
+        "min": 0.0,
+        "q1": 2.2,
+        "median": 6.14,
+        "q3": 11.525,
+        "max": 78.13
+      },
+      "fat": {
+        "min": 0.0,
+        "q1": 2.12,
+        "median": 6.0,
+        "q3": 13.045,
+        "max": 100.0
+      },
+      "carbs": {
+        "min": 0.0,
+        "q1": 5.74,
+        "median": 14.48,
+        "q3": 26.55,
+        "max": 100.0
+      }
+    },
+    "portions": 22046,
+    "nonpositive_portion_weight": 1,
+    "unspecified_portion_rows": 5326,
+    "foods_with_positive_named_portion": 5395,
+    "input_rows": 18584,
+    "foods_with_input_rows": 5431,
+    "multi_input_foods": 3829,
+    "empty_input_food_fk": 18584,
+    "empty_sr_code": 0,
+    "empty_input_unit": 1125,
+    "nonpositive_input_weight": 0,
+    "category_kcal_per_100g": {
+      "3804": {
+        "n": 47,
+        "min": 6.0,
+        "q1": 36.0,
+        "median": 47.0,
+        "q3": 63.5,
+        "max": 151.0
+      },
+      "3806": {
+        "n": 13,
+        "min": 70.0,
+        "q1": 75.0,
+        "median": 88.0,
+        "q3": 91.0,
+        "max": 109.0
+      },
+      "4804": {
+        "n": 26,
+        "min": 46.0,
+        "q1": 64.25,
+        "median": 71.0,
+        "q3": 85.0,
+        "max": 108.0
+      },
+      "1822": {
+        "n": 14,
+        "min": 59.0,
+        "q1": 75.0,
+        "median": 87.0,
+        "q3": 93.25,
+        "max": 149.0
+      },
+      "3202": {
+        "n": 132,
+        "min": 38.0,
+        "q1": 107.0,
+        "median": 118.5,
+        "q3": 134.0,
+        "max": 289.0
+      },
+      "2502": {
+        "n": 147,
+        "min": 48.0,
+        "q1": 141.0,
+        "median": 172.0,
+        "q3": 190.0,
+        "max": 357.0
+      }
+    }
+  },
+  "edits": {
+    "foods": 12,
+    "recipes": 4,
+    "variants": 10,
+    "cases": 18,
+    "families": 7,
+    "label_audit": {
+      "duplicate_ids": 0,
+      "duplicate_texts": 0,
+      "multiple_acceptable_answers": 3,
+      "with_hard_exclusions": 5,
+      "with_soft_ingredient_preferences": 3,
+      "foods_with_complete_macros": 12
+    },
+    "edit_in_day": {
+      "request_id": "O2",
+      "choice": "more_banana",
+      "per_serving": {
+        "before": {
+          "kcal": 174.8,
+          "protein": 4.816,
+          "fat": 2.712,
+          "carbs": 35.384
+        },
+        "after": {
+          "kcal": 194.2,
+          "protein": 4.964,
+          "fat": 2.768,
+          "carbs": 39.926
+        }
+      },
+      "days": [
+        {
+          "id": "room",
+          "before": {
+            "total": {
+              "kcal": 2024.8,
+              "protein": 98.816,
+              "fat": 70.712,
+              "carbs": 239.384
+            },
+            "violations": []
+          },
+          "after": {
+            "total": {
+              "kcal": 2044.2,
+              "protein": 98.964,
+              "fat": 70.768,
+              "carbs": 243.926
+            },
+            "violations": []
+          }
+        },
+        {
+          "id": "energy_limit",
+          "before": {
+            "total": {
+              "kcal": 2089.8,
+              "protein": 98.816,
+              "fat": 70.712,
+              "carbs": 239.384
+            },
+            "violations": []
+          },
+          "after": {
+            "total": {
+              "kcal": 2109.2,
+              "protein": 98.964,
+              "fat": 70.768,
+              "carbs": 243.926
+            },
+            "violations": [
+              "kcal"
+            ]
+          }
+        },
+        {
+          "id": "carb_limit",
+          "before": {
+            "total": {
+              "kcal": 2024.8,
+              "protein": 98.816,
+              "fat": 70.712,
+              "carbs": 261.384
+            },
+            "violations": []
+          },
+          "after": {
+            "total": {
+              "kcal": 2044.2,
+              "protein": 98.964,
+              "fat": 70.768,
+              "carbs": 265.926
+            },
+            "violations": [
+              "carbs"
+            ]
+          }
+        }
+      ]
+    },
+    "results": [
+      {
+        "id": "O1",
+        "family": "oat_sweet",
+        "gold": [
+          "more_banana",
+          "with_sugar"
+        ],
+        "actual": "with_sugar",
+        "passed": true,
+        "ranked": "with_sugar",
+        "ranked_passed": true
+      },
+      {
+        "id": "O2",
+        "family": "oat_sweet",
+        "gold": [
+          "more_banana"
+        ],
+        "actual": "more_banana",
+        "passed": true,
+        "ranked": "more_banana",
+        "ranked_passed": true
+      },
+      {
+        "id": "O3",
+        "family": "oat_sweet",
+        "gold": [
+          "more_banana"
+        ],
+        "actual": "with_sugar",
+        "passed": false,
+        "ranked": "more_banana",
+        "ranked_passed": true
+      },
+      {
+        "id": "Y1",
+        "family": "yogurt_sweet",
+        "gold": [
+          "more_berries",
+          "with_banana"
+        ],
+        "actual": "with_banana",
+        "passed": true,
+        "ranked": "with_banana",
+        "ranked_passed": true
+      },
+      {
+        "id": "Y2",
+        "family": "yogurt_sweet",
+        "gold": [
+          "more_berries"
+        ],
+        "actual": "more_berries",
+        "passed": true,
+        "ranked": "more_berries",
+        "ranked_passed": true
+      },
+      {
+        "id": "Y3",
+        "family": "yogurt_sweet",
+        "gold": [
+          "more_berries"
+        ],
+        "actual": "with_banana",
+        "passed": false,
+        "ranked": "more_berries",
+        "ranked_passed": true
+      },
+      {
+        "id": "S1",
+        "family": "salad_heat",
+        "gold": [
+          "mild_chili"
+        ],
+        "actual": "mild_chili",
+        "passed": true,
+        "ranked": "mild_chili",
+        "ranked_passed": true
+      },
+      {
+        "id": "S2",
+        "family": "salad_heat",
+        "gold": [
+          "extra_chili"
+        ],
+        "actual": "extra_chili",
+        "passed": true,
+        "ranked": "extra_chili",
+        "ranked_passed": true
+      },
+      {
+        "id": "S3",
+        "family": "salad_heat",
+        "gold": [
+          "mild_chili",
+          "extra_chili"
+        ],
+        "actual": "mild_chili",
+        "passed": true,
+        "ranked": "mild_chili",
+        "ranked_passed": true
+      },
+      {
+        "id": "R1",
+        "family": "rice_heat",
+        "gold": [
+          "chili_rice"
+        ],
+        "actual": "chili_rice",
+        "passed": true,
+        "ranked": "chili_rice",
+        "ranked_passed": true
+      },
+      {
+        "id": "R2",
+        "family": "rice_heat",
+        "gold": [
+          "garlic_chili"
+        ],
+        "actual": "chili_rice",
+        "passed": false,
+        "ranked": "garlic_chili",
+        "ranked_passed": true
+      },
+      {
+        "id": "L1",
+        "family": "add_acid",
+        "gold": [
+          "lemon_salad"
+        ],
+        "actual": "lemon_salad",
+        "passed": true,
+        "ranked": "lemon_salad",
+        "ranked_passed": true
+      },
+      {
+        "id": "L2",
+        "family": "add_acid",
+        "gold": [
+          "lemon_rice"
+        ],
+        "actual": "lemon_rice",
+        "passed": true,
+        "ranked": "lemon_rice",
+        "ranked_passed": true
+      },
+      {
+        "id": "B1",
+        "family": "conflict",
+        "gold": [
+          "unavailable"
+        ],
+        "actual": "unavailable",
+        "passed": true,
+        "ranked": "unavailable",
+        "ranked_passed": true
+      },
+      {
+        "id": "B2",
+        "family": "conflict",
+        "gold": [
+          "unavailable"
+        ],
+        "actual": "unavailable",
+        "passed": true,
+        "ranked": "unavailable",
+        "ranked_passed": true
+      },
+      {
+        "id": "B3",
+        "family": "conflict",
+        "gold": [
+          "unavailable"
+        ],
+        "actual": "unavailable",
+        "passed": true,
+        "ranked": "unavailable",
+        "ranked_passed": true
+      },
+      {
+        "id": "Q1",
+        "family": "clarification",
+        "gold": [
+          "clarify"
+        ],
+        "actual": "clarify",
+        "passed": true,
+        "ranked": "clarify",
+        "ranked_passed": true
+      },
+      {
+        "id": "Q2",
+        "family": "clarification",
+        "gold": [
+          "clarify"
+        ],
+        "actual": "clarify",
+        "passed": true,
+        "ranked": "clarify",
+        "ranked_passed": true
+      }
+    ]
+  }
+}

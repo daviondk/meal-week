@@ -1,0 +1,44 @@
+{
+  "foods": {
+    "oats": 2708387, "banana": 2709224, "sugar": 2710258,
+    "yogurt": 2705422, "strawberry": 2709283, "tomato": 2709719,
+    "cucumber": 2709784, "oil": 2710186, "chili": 2709798,
+    "garlic": 2709786, "lemon": 2709181, "rice": 2708414
+  },
+  "recipes": {
+    "porridge": {
+      "name": "Овсянка с бананом",
+      "base_g": {"oats": 200, "banana": 40},
+      "variants": [
+        {"id": "more_banana", "taste": "sweet", "set_g": {"banana": 60}},
+        {"id": "with_sugar", "taste": "sweet", "set_g": {"sugar": 3}}
+      ]
+    },
+    "yogurt_bowl": {
+      "name": "Йогурт с клубникой",
+      "base_g": {"yogurt": 150, "strawberry": 40},
+      "variants": [
+        {"id": "more_berries", "taste": "sweet", "set_g": {"strawberry": 80}},
+        {"id": "with_banana", "taste": "sweet", "set_g": {"banana": 25}}
+      ]
+    },
+    "salad": {
+      "name": "Салат из помидоров и огурцов",
+      "base_g": {"tomato": 100, "cucumber": 80, "oil": 5},
+      "variants": [
+        {"id": "mild_chili", "taste": "hot", "strength": "mild", "set_g": {"chili": 2}},
+        {"id": "extra_chili", "taste": "hot", "strength": "strong", "set_g": {"chili": 6}},
+        {"id": "lemon_salad", "taste": "sour", "set_g": {"lemon": 8}}
+      ]
+    },
+    "rice_bowl": {
+      "name": "Рис с помидорами",
+      "base_g": {"rice": 160, "tomato": 80, "oil": 5},
+      "variants": [
+        {"id": "chili_rice", "taste": "hot", "set_g": {"chili": 3}},
+        {"id": "garlic_chili", "taste": "hot", "set_g": {"chili": 2, "garlic": 3}},
+        {"id": "lemon_rice", "taste": "sour", "set_g": {"lemon": 8}}
+      ]
+    }
+  }
+}
