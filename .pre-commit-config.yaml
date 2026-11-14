@@ -1,0 +1,27 @@
+minimum_pre_commit_version: "4.5.1"
+default_install_hook_types: [pre-commit]
+repos:
+  - repo: local
+    hooks:
+      - id: ruff-check
+        name: Ruff lint
+        entry: uv run --locked ruff check --force-exclude
+        language: system
+        types_or: [python, pyi]
+      - id: ruff-format
+        name: Ruff format
+        entry: uv run --locked ruff format --force-exclude
+        language: system
+        types_or: [python, pyi]
+      - id: repository-check-tests
+        name: Repository checker unit tests
+        entry: uv run --locked python -m unittest discover -s tests -v
+        language: system
+        pass_filenames: false
+        always_run: true
+      - id: repository-check
+        name: Local repository and documentation checks
+        entry: uv run --locked python scripts/check_repo.py
+        language: system
+        pass_filenames: false
+        always_run: true
