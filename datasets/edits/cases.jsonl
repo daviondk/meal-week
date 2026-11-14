@@ -1,0 +1,18 @@
+{"id":"O1","family":"oat_sweet","text":"Сделай овсянку слаще.","form":{"recipe":"porridge","taste":"sweet"},"gold":["more_banana","with_sugar"]}
+{"id":"O2","family":"oat_sweet","text":"Хочу овсянку послаще, без добавленного сахара.","form":{"recipe":"porridge","taste":"sweet","exclude":["sugar"]},"gold":["more_banana"]}
+{"id":"O3","family":"oat_sweet","text":"Сделай овсянку слаще. Предпочитаю банан, но сахар тоже можно.","form":{"recipe":"porridge","taste":"sweet","prefer":["banana"]},"gold":["more_banana"]}
+{"id":"Y1","family":"yogurt_sweet","text":"Можно йогурт с клубникой послаще?","form":{"recipe":"yogurt_bowl","taste":"sweet"},"gold":["more_berries","with_banana"]}
+{"id":"Y2","family":"yogurt_sweet","text":"Сделай йогурт слаще без банана.","form":{"recipe":"yogurt_bowl","taste":"sweet","exclude":["banana"]},"gold":["more_berries"]}
+{"id":"Y3","family":"yogurt_sweet","text":"Сделай йогурт слаще. Если можно, сохрани те же ингредиенты.","form":{"recipe":"yogurt_bowl","taste":"sweet","prefer_existing":true},"gold":["more_berries"]}
+{"id":"S1","family":"salad_heat","text":"Добавь в салат немного остроты.","form":{"recipe":"salad","taste":"hot","strength":"mild"},"gold":["mild_chili"]}
+{"id":"S2","family":"salad_heat","text":"Хочу самый острый вариант салата.","form":{"recipe":"salad","taste":"hot","strength":"strong"},"gold":["extra_chili"]}
+{"id":"S3","family":"salad_heat","text":"Салат поострее, какой именно вариант — неважно.","form":{"recipe":"salad","taste":"hot"},"gold":["mild_chili","extra_chili"]}
+{"id":"R1","family":"rice_heat","text":"Сделай поострее рис с помидорами, без чеснока.","form":{"recipe":"rice_bowl","taste":"hot","exclude":["garlic"]},"gold":["chili_rice"]}
+{"id":"R2","family":"rice_heat","text":"Добавь в рис остроты. Если есть вариант с чесноком, предпочту его.","form":{"recipe":"rice_bowl","taste":"hot","prefer":["garlic"]},"gold":["garlic_chili"]}
+{"id":"L1","family":"add_acid","text":"Салату не хватает кислинки.","form":{"recipe":"salad","taste":"sour"},"gold":["lemon_salad"]}
+{"id":"L2","family":"add_acid","text":"Сделай рис с помидорами покислее.","form":{"recipe":"rice_bowl","taste":"sour"},"gold":["lemon_rice"]}
+{"id":"B1","family":"conflict","text":"Хочу острый рис, перец чили исключи.","form":{"recipe":"rice_bowl","taste":"hot","exclude":["chili"]},"gold":["unavailable"]}
+{"id":"B2","family":"conflict","text":"Нужен вариант этого салата с кислинкой, но совсем без огурца.","form":{"recipe":"salad","taste":"sour","exclude":["cucumber"]},"gold":["unavailable"]}
+{"id":"B3","family":"conflict","text":"Хочу острый вариант овсянки.","form":{"recipe":"porridge","taste":"hot"},"gold":["unavailable"]}
+{"id":"Q1","family":"clarification","text":"Сделай поострее.","form":{"taste":"hot"},"gold":["clarify"]}
+{"id":"Q2","family":"clarification","text":"Хочу изменить вкус салата.","form":{"recipe":"salad"},"gold":["clarify"]}
